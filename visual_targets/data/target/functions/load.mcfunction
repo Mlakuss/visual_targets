@@ -1,0 +1,2 @@
+execute unless data storage mlk:target {installed:1b} run tellraw @a {"text":"[MLK Targets] Datapack installed!","color":"green"}
+execute unless data storage mlk:target {installed:1b} run function target:install
